@@ -1,0 +1,110 @@
+.hero {
+    display: flex;
+    align-items: center;
+    padding-inline: 5rem;
+    padding-block: 2rem;
+    width: 100vw;
+    height: 90vh;
+    background: var(--hero-bg);
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 60%;
+    padding: 2rem;
+    padding-block: 0;
+    gap: 1rem;
+}
+
+.hero .left h3 { /* Upper tagline */
+    width: fit-content;
+    font-size:0.9rem;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    background-color: #e8384452;
+    color: var(--accent-color-dark);
+    font-weight: 300;
+}
+
+.hero .left h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    background: linear-gradient(to right, var(--accent-color), var(--accent-color-dark));
+    background-clip: text;
+    color: transparent;
+}
+
+.hero .left p {
+    margin-block-start: 1rem;
+    width: 80%;
+}
+
+.hero .left .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.hero .left .wrapper {
+    width: 60%;
+    padding: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.hero .left .wrapper .box {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    position: relative;
+}
+
+.wrapper div:nth-child(-n+2)::after {
+    content: "";
+    height: 60%;
+    width: 2px;
+    background: #0000003c;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+}
+
+
+.hero .right {
+    height: 100%;
+    width: 40%;
+    padding: 2rem;
+    background: var(--body-bg);
+    border-radius: 1rem;
+    box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.523);
+}
+
+.hero .right img {
+    width: 100%;
+    height: 100%;
+    animation: pulse 2s ease infinite;
+    transition: all 2s ease;
+}
+
+.hero .right img:hover {
+    filter: hue-rotate(360deg);
+}
+
+
+@keyframes pulse {
+    0% {
+        scale: 0.8;
+    }
+    50% {
+        scale: 1;
+    }
+    100% {
+        scale: 0.8;
+    }
+}
