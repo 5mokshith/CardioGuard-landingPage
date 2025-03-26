@@ -2,7 +2,7 @@ import heartIcon from './../assets/icons/heartIcon.svg'
 import brainIcon from './../assets/icons/brainIcon.svg'
 import dangerIcon from './../assets/icons/dangerIcon.svg'
 import doctorIcon from './../assets/icons/doctorIcon.svg'
-import databaseIcon1 from './../assets/icons/databaseIcon.svg'
+import databaseIcon1 from './../assets/icons/icon.svg'
 import userIcon from './../assets/icons/userIcon.svg'
 
 import '../css/CTA.css'
