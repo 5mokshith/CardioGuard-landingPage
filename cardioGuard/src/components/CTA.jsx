@@ -33,7 +33,7 @@ const userFlowData = [
     {icon: userIcon, title: "Sign Up", description: "Create your account and enter health details and lifestyle information."},
     {icon: shareIcon, title: "Connect Sensors", description: "Connect your ECG & SpO2 sensors to begin continuous health monitoring."},
     {icon: waveIcon, title: "AI Analysis", description: "Our AI models are trained to determine and identify Cardiac arrest symtoms and cases before occurring."},
-    {title: dangerIcon, title: "Emergency Alerts", description: "In case of hight risk, emergency contacts & medical professionals receive instant alerts."}
+    {icon: dangerIcon, title: "Emergency Alerts", description: "In case of hight risk, emergency contacts & medical professionals receive instant alerts."}
 ];
 
 function CTA(props) {
@@ -49,16 +49,7 @@ function CTA(props) {
                     <Card key={index} {...data} />
                 ))}
             </div>
-            <div className="wrapper-userFlow">
-                {userFlowData.map((data, index) => {
-                    return (
-                        <div className='card-group' key={index}>
-                            <Card {...data} icon = {data.icon || ''}></Card>
-                        </div>
-                    )
-                })}
-                <div className="line"></div>
-            </div>
+        
         </div>
     );
 }
