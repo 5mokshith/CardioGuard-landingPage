@@ -7,7 +7,7 @@ function Hero() {
         <div className="hero">
             <div className="left">
                 <h3>AI-Powered Health Monitoring</h3>
-                <SectionTitle header="AI Powered Cardiac Monitoring & Alert System" isBig={true} description="Continously Moinitor your heart health, predict risks, and get real-time emergency alerts with oour cutting-edge AI technology."/>
+                <SectionTitle header="AI Powered Cardiac - Monitoring & Alert System" isBig={true} description="Continously Moinitor your heart health, predict risks, and get real-time emergency alerts with oour cutting-edge AI technology."/>
                 <div className="buttons">
                     <Button label="Get Started"></Button>
                     <Button label="Learn more"></Button>

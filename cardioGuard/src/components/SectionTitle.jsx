@@ -1,8 +1,17 @@
 import PropTypes from "prop-types";
 
 function SectionTitle({ header, description, isBig = false }) {
+  if(isBig) {
+    header = header.split("-")
+    return (
+      <>
+        <h1><span>{header[0]}</span>{header[1]}</h1>
+        <p className="tagline">{description}</p>
+      </>
+    );
+  }
   return (
-    <>  {isBig ? <h1>{header}</h1> : <h2>{header}</h2>}
+    <>  <h2>{header}</h2>
       <p className="tagline">{description}</p></>
   );
 }

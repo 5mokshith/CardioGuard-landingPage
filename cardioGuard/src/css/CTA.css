@@ -1,0 +1,71 @@
+.CTA-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2.5rem;
+    margin: 2rem;
+    flex-direction: column;
+}
+.CTA-section h4 {
+    color: var(--accent-color);
+    margin: 1rem;
+    text-align: center;
+}
+
+.CTA-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.CTA-section p {
+    color: grey;
+}
+
+
+.CTA-section .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 80%;
+    padding: 1rem;
+    margin-inline: 2rem ;
+    height: fit-content;
+}
+
+.CTA-section .wrapper .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    padding: 1.2rem;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.CTA-section .wrapper .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.CTA-section .wrapper .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: #ff001190;
+    width: fit-content;
+}
+
+.wrapper-userFlow {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    position: relative;
+}
