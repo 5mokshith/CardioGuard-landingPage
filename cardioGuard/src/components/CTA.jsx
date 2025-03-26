@@ -1,4 +1,3 @@
-import PropTypes, { element } from 'prop-types'
 import heartIcon from '../assets/icons/heartIcon.svg'
 import brainIcon from '../assets/icons/brainIcon.svg'
 import dangerIcon from '../assets/icons/dangerIcon.svg'
