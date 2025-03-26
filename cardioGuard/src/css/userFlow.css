@@ -1,0 +1,69 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    padding: 2rem;
+    margin: 1rem;
+    background: var(--hero-bg);
+}
+
+.container .card-userflow {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    width: 25rem;   
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background: var(--body-bg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.container .card-userflow h2 {
+    display: flex;
+    gap: 0.2rem;
+    font-size: 1.125rem;
+}
+.container .card-userflow h2 span {
+    background: linear-gradient(to right, var(--accent-color-dark), var(--accent-color-light));
+    color: transparent;
+    background-clip: text;
+}
+.container .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container .wrapper .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgba(54, 54, 219, 0.722);
+}
+
+.container .line {
+    position: absolute;
+    height: 70%;
+    width: 5px;
+    bottom: -212%;
+    left: 50%;
+    right: 50%;
+    background: linear-gradient(to bottom, rgb(118, 118, 255), blue, purple 70%);
+}
+.container .text {
+    margin: 2rem;
+}
+
+.container .text h2 {
+    text-align: center;
+    color: var(--accent-color-light);
+}
+.container .text h1 {
+    line-height: 3rem;
+}
+.container .text p {
+    color: grey;
+    text-align: center;
+}

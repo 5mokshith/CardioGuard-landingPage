@@ -5,7 +5,7 @@ function SectionTitle({ header, description, isBig = false }) {
     header = header.split("-")
     return (
       <>
-        <h1><span>{header[0]}</span>{header[1]}</h1>
+        <h1 style={{ textAlign: "left" }}><span>{header[0]}</span>{header[1]}</h1>
         <p className="tagline">{description}</p>
       </>
     );

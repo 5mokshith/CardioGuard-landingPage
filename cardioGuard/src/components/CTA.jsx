@@ -5,8 +5,7 @@ import dangerIcon from '../assets/icons/dangerIcon.svg'
 import doctorIcon from '../assets/icons/doctorIcon.svg'
 import databaseIcon from '../assets/icons/databaseIcon.svg'
 import userIcon from '../assets/icons/userIcon.svg'
-import shareIcon from "../assets/icons/shareIcon.svg"
-import waveIcon from "../assets/icons/waveIcon.svg"
+
 import '../css/CTA.css'
 const Card = (props) => {
     return (
@@ -27,13 +26,6 @@ const CTAData = [
     {icon: doctorIcon, title: "Personalized Medicine Recommendations", description: "AI suggests first-aid medication based on symptoms and medical history."},
     {icon: databaseIcon, title: "Secure User Data Storage", description: "Uses Supabase for secure medical data management with end-to-end encryption."},
     {icon: userIcon, title: "Seamless Onboarding", description: "Smooth transitions during sign-up for collecting personal and emergency info."},
-];
-
-const userFlowData = [
-    {icon: userIcon, title: "Sign Up", description: "Create your account and enter health details and lifestyle information."},
-    {icon: shareIcon, title: "Connect Sensors", description: "Connect your ECG & SpO2 sensors to begin continuous health monitoring."},
-    {icon: waveIcon, title: "AI Analysis", description: "Our AI models are trained to determine and identify Cardiac arrest symtoms and cases before occurring."},
-    {icon: dangerIcon, title: "Emergency Alerts", description: "In case of hight risk, emergency contacts & medical professionals receive instant alerts."}
 ];
 
 function CTA(props) {

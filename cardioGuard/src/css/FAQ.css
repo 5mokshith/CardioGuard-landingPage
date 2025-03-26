@@ -1,13 +1,9 @@
 .cardioguard-app {
   font-family: "Inter", sans-serif;
-  background: linear-gradient(
-    to right,
-    rgba(255, 192, 203, 0.401),
-    rgba(0, 0, 255, 0.138)
-  );
   color: #1a2b4c;
   height: 70vh;
   align-items: center;
+  transition: all 200ms ease;
 }
 
 .faq-container {
@@ -60,17 +56,20 @@
   padding: 1.25rem;
   font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .faq-question:hover {
   background-color: #f9fafb;
+  transition: all 0.3s ease;
 }
 
 .expand-icon {
   color: #e63946;
   font-size: 1.25rem;
   font-weight: 700;
+  transition: all 0.3s ease;
+
 }
 
 .faq-answer {
@@ -79,4 +78,5 @@
   color: #4b5563;
   font-size: 0.875rem;
   line-height: 1.6;
+  transition: all 0.3s ease;
 }

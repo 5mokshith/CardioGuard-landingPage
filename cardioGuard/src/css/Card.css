@@ -7,7 +7,6 @@
     rgba(255, 192, 203, 0.401),
     rgba(0, 0, 255, 0.138)
   );
-  /* height: 100vh; */
 }
 /* TODO: fix height */
 .card-container .content {
@@ -15,6 +14,10 @@
   border-radius: 2rem;
   padding: 5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-container .content h1 {
+  margin-block-start: 0.156rem;
+  font-size: 1.9rem;
 }
 .card-container > .content > .one h2,
 h1 {
