@@ -1,0 +1,42 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(
+    to right,
+    rgba(255, 192, 203, 0.401),
+    rgba(0, 0, 255, 0.138)
+  );
+  /* height: 100vh; */
+}
+/* TODO: fix height */
+.card-container .content {
+  background: #fff;
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-container > .content > .one h2,
+h1 {
+  text-align: center;
+}
+
+.card-container > .content p {
+  text-align: center;
+  padding: 1rem;
+  max-width: 39rem;
+}
+
+.card-container > .content > .two {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-container > .content > .two .btn {
+  width: fit-content;
+  padding: 0.4rem;
+}
