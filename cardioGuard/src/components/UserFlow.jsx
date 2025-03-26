@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import "../css/userFlow.css";
 import dangerIcon from "../assets/icons/dangerIcon.svg";
 import userIcon from "../assets/icons/userIcon.svg";
@@ -74,9 +73,3 @@ export default function UserFlow() {
         </div>
     );
 }
-=======
-function UserFlow() {
-  return <div className="">hello!</div>;
-}
-export default UserFlow;
->>>>>>> 7f28c99371749f87634af1c0ada01d47548030c9
