@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  padding: 6rem;
   background: linear-gradient(
     to right,
     rgba(255, 192, 203, 0.401),
@@ -13,7 +13,7 @@
 .card-container .content {
   background: #fff;
   border-radius: 2rem;
-  padding: 3rem;
+  padding: 5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .card-container > .content > .one h2,
@@ -37,6 +37,10 @@ h1 {
 }
 
 .card-container > .content > .two .btn {
-  width: fit-content;
-  padding: 0.4rem;
+    height: 2.7rem;
+    width: 13rem;
+    padding: 0.6rem;
+    text-align: center;
+    border-radius: 2rem;
+
 }

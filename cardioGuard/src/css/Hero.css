@@ -6,6 +6,7 @@
     width: 100vw;
     height: 90vh;
     background: var(--hero-bg);
+    margin-block-start: 5rem;
 }
 
 .hero .left {
@@ -97,6 +98,7 @@
 .hero .right img:hover {
     filter: hue-rotate(360deg);
 }
+
 
 
 @keyframes pulse {
