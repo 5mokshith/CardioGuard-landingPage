@@ -7,7 +7,7 @@ const FAQ = () => {
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
+ 
   const faqData = [
     {
       question: "How accurate is CardioGuard's prediction system?",
