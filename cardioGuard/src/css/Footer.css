@@ -1,7 +1,7 @@
 /* Footer Container */
 .footer-container {
   position: relative;
-  background: var(--body-bg);
+  background:var(--body-bg);
   padding: 6rem 1rem;
 }
 
@@ -27,11 +27,6 @@
   gap: 2rem;
 }
 
-@media (min-width: 768px) {
-  .footer-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
 @media (min-width: 1024px) {
   .footer-grid {
@@ -67,7 +62,7 @@
 }
 
 .footer-column-links a:hover {
-  color: white;
+  color: var(--accent-color);
 }
 
 /* Copyright Section */
