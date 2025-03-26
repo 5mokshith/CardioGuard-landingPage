@@ -12,7 +12,7 @@ function NavBar() {
                 <li><a href="#how-it-works">How it works</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#FAQ">FAQ</a></li>
-                <li><a href="#">{<Button label="Get started"></Button>}</a></li>
+                <li><a href="http://localhost:5173/index.html">{<Button label="Get started"></Button>}</a></li>
             </ul>
         </nav>
     );
